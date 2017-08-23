@@ -1,0 +1,33 @@
+.main-banner{
+  display: inline;
+}
+
+.main-section{
+  font-family: Helvetica;
+  font-weight: lighter;
+  
+}
+
+.main-section-header{
+  padding: 0 50px;
+  color: #4a4a4a;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.main-section-text{
+  font-family: Helvetica;
+  padding: 0 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: rgba(26,26,26,.7);
+  text-align: left;
+}
+
