@@ -1,5 +1,6 @@
 .main-banner{
   display: inline;
+  padding-left: 23px;
 }
 
 .main-section{
@@ -29,5 +30,8 @@
   line-height: 1.6em;
   color: rgba(26,26,26,.7);
   text-align: left;
+/*  background-color: green;*/
+  padding-left: 120px;
+  padding-right: 120px;
 }
 

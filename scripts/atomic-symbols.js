@@ -25,9 +25,9 @@ function validateForm() {
 
      //final check for no symbols found
     if(output.length == 0){
-        document.getElementById("elementize").innerHTML = "no symbols found";
+        document.getElementById("display-symbols").innerHTML = "no symbols found";
     }else{
-        document.getElementById("elementize").innerHTML = output;
+        document.getElementById("display-symbols").innerHTML = output;
         storeName(output);
     }   
 
@@ -78,7 +78,6 @@ function elementalName(input){
     return results;
 };
 
-
 //local storage here.
 function storeName(nameToStore){
      console.log(nameToStore);
@@ -87,13 +86,3 @@ function storeName(nameToStore){
 
      }
 };
-
-//make globals to use in other page
-/*
-var result = document.getElementById("result");
-
-console.log(result);
-
-if(result !== null){
-    result.innerHTML = localStorage.getItem("atomize");
-};*/

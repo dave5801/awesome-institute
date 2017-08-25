@@ -1,10 +1,24 @@
-body h1{
-  font-family: Helvetica;
-  font-weight: lighter;
-  text-align: center;
+body{
+   /*background-color: red;*/
 }
 
 
+/**/
+body h1{
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-align: left;
+}
+
+body p{
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: left;
+}
+
+table{
+  /*background-color: green;*/
+}
 
 #element_display{
   font-family: Helvetica;
@@ -20,30 +34,30 @@ body h1{
 
 .element {
   font-family: sans-serif;
-    background: white url('/courses/chemistry/periodic_table/images/background2.png');
-    color: black;
-    cursor: pointer;
-    display: block;
-    float: left;
-    width: 55px;
-    height: 55px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-align: center;
+  background: white url('/courses/chemistry/periodic_table/images/background2.png');
+  color: black;
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
 
 }
 
 .element code {
-    line-height: .8em;
-    display: block;
-    font-size: 15px;
-    color: #000;
-    text-align: center;
-    font-weight: bold;
-    padding: 5px 3px 1px 4px;
-    margin: 0;
-    text-decoration: none;
+  line-height: .8em;
+  display: block;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 3px 1px 4px;
+  margin: 0;
+  text-decoration: none;
 }
 
 #non-metal {
@@ -84,12 +98,9 @@ body h1{
 #noble-gas {
   background-color: #ccccff;
 }
-/*
-#lanthanides-actinides{
-  margin-top: 10px;
-}*/
 
 #table-main{
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   font-family: Comic Sans MS;
+  padding-left: 50px;
 }
